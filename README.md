@@ -30,15 +30,23 @@ npx skills add /absolute/path/to/theoneloop --skill '*'
 
 The external installer uses Node/npm. The skill packages contain only Markdown—no runtime dependencies, hooks, or executable scripts. The project's existing build and test tools remain in use. See the [publishing and installation guide](docs/publishing.md) for individual installation, update commands, and validation scope.
 
-<p align="center">
-  <img src="docs/assets/theoneloop.png" alt="A white infinity-shaped ring with flowing fantasy runes on a dark background" width="720">
-</p>
-
 TheOneLoop gives coding agents a shared development process: clarify the need, plan the sprint, implement selected stories, review the code, verify the result, and bring the increment back for human acceptance. Decisions and evidence stay with the project, so the next session can pick up where the last one stopped.
 
 **Six skills · Releasable increments · Separate code review · Human acceptance · Text-only packages**
 
 [Get started](#get-started) · [Explore the skills](#six-skills-one-process) · [See the workflow](#from-issue-to-increment) · [Publishing guide](docs/publishing.md)
+
+## Try your first sprint
+
+Use your agent's skill selector, or name the skill in your request:
+
+> Use theoneloop-init to assess this project and agree on the development workflow.
+
+> Use theoneloop-plan to turn this issue into stories and a complete sprint: “Customers need to recover access to their account.”
+
+> Use theoneloop-implement to execute STORY-001 and STORY-002 from SPRINT-001.
+
+When the selected workflow needs a merge, you perform it. Once all stories are complete and integrated, use `theoneloop-verify` for the sprint, then `theoneloop-accept` to evaluate the result.
 
 ## Ship an increment you can evaluate
 
@@ -97,18 +105,6 @@ flowchart LR
 | [theoneloop-accept](skills/theoneloop-accept/SKILL.md) | Present the increment, record human feedback, and close or reopen work. |
 
 Install the full set for direct access to every phase, or install a single skill for its specific job. Each package contains its required references and templates. Implementation also includes review and verification instructions; acceptance includes planning instructions for requirement changes.
-
-## Try your first sprint
-
-Use your agent's skill selector, or name the skill in your request:
-
-> Use theoneloop-init to assess this project and agree on the development workflow.
-
-> Use theoneloop-plan to turn this issue into stories and a complete sprint: “Customers need to recover access to their account.”
-
-> Use theoneloop-implement to execute STORY-001 and STORY-002 from SPRINT-001.
-
-When the selected workflow needs a merge, you perform it. Once all stories are complete and integrated, use `theoneloop-verify` for the sprint, then `theoneloop-accept` to evaluate the result.
 
 ## Choose your Git workflow
 
