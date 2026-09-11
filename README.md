@@ -1,7 +1,7 @@
 # TheOneLoop
 
 <p align="center">
-  <img src="docs/assets/theoneloop-infinity.png" alt="A white infinity-shaped ring with flowing fantasy runes on a dark background" width="720">
+  <img src="docs/assets/theoneloop.png" alt="A white infinity-shaped ring with flowing fantasy runes on a dark background" width="720">
 </p>
 
 **One loop. Human direction. Agent execution.**
