@@ -1,5 +1,9 @@
 # TheOneLoop
 
+<p align="center">
+  <img src="docs/assets/theoneloop.png" alt="TheOneLoop: a white infinity ring with flowing runes" width="360">
+</p>
+
 **One loop. Human direction. Agent execution.**
 
 Turn an issue into a reviewed, releasable software increment. Six text-only skills give your coding agent a repeatable process, with you approving the plan and accepting the result.
@@ -20,9 +24,6 @@ npx skills add riktar/theoneloop --skill '*' --agent claude-code codex opencode 
 
 Requires Node.js/npm for installation. [More installation options](docs/installation.md).
 
-<p align="center">
-  <img src="docs/assets/theoneloop.png" alt="TheOneLoop: a white infinity ring with flowing runes" width="360">
-</p>
 
 ## How it works
 
