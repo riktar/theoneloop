@@ -4,6 +4,10 @@
 
 Turn an issue into a complete, reviewed software increment—with a human in charge of what gets built and when it is accepted.
 
+<p align="center">
+  <img src="docs/assets/theoneloop.png" alt="A white infinity-shaped ring with flowing fantasy runes on a dark background" width="720">
+</p>
+
 ## Get started
 
 Run this in the project where you want to use TheOneLoop. Install all six skills from [riktar/theoneloop](https://github.com/riktar/theoneloop):
