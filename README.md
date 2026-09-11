@@ -1,12 +1,34 @@
-# TheOneLoop
-
-<p align="center">
-  <img src="docs/assets/theoneloop.png" alt="A white infinity-shaped ring with flowing fantasy runes on a dark background" width="720">
-</p>
+# TheOneLoop 
 
 **One loop. Human direction. Agent execution.**
 
 Turn an issue into a complete, reviewed software increment—with a human in charge of what gets built and when it is accepted.
+
+## Get started
+
+Run this in the project where you want to use TheOneLoop. Install all six skills from [riktar/theoneloop](https://github.com/riktar/theoneloop):
+
+```text
+npx skills add riktar/theoneloop --skill '*'
+```
+
+Choose your agents interactively, or target the four intended clients explicitly:
+
+```text
+npx skills add riktar/theoneloop --skill '*' --agent claude-code codex opencode pi --copy
+```
+
+From a local checkout, run this in the project where you want to use the skills:
+
+```text
+npx skills add /absolute/path/to/theoneloop --skill '*'
+```
+
+The external installer uses Node/npm. The skill packages contain only Markdown—no runtime dependencies, hooks, or executable scripts. The project's existing build and test tools remain in use. See the [publishing and installation guide](docs/publishing.md) for individual installation, update commands, and validation scope.
+
+<p align="center">
+  <img src="docs/assets/theoneloop.png" alt="A white infinity-shaped ring with flowing fantasy runes on a dark background" width="720">
+</p>
 
 TheOneLoop gives coding agents a shared development process: clarify the need, plan the sprint, implement selected stories, review the code, verify the result, and bring the increment back for human acceptance. Decisions and evidence stay with the project, so the next session can pick up where the last one stopped.
 
@@ -72,29 +94,7 @@ flowchart LR
 
 Install the full set for direct access to every phase, or install a single skill for its specific job. Each package contains its required references and templates. Implementation also includes review and verification instructions; acceptance includes planning instructions for requirement changes.
 
-## Get started
-
-Install all six skills from the public repository once published. Replace `OWNER` with the actual GitHub owner; the repository identifier below is a placeholder.
-
-```text
-npx skills add OWNER/theoneloop --skill '*'
-```
-
-Choose your agents interactively, or target the four intended clients explicitly:
-
-```text
-npx skills add OWNER/theoneloop --skill '*' --agent claude-code codex opencode pi --copy
-```
-
-From a local checkout, run this in the project where you want to use the skills:
-
-```text
-npx skills add /absolute/path/to/theoneloop --skill '*'
-```
-
-The external installer uses Node/npm. The skill packages contain only Markdown—no runtime dependencies, hooks, or executable scripts. The project's existing build and test tools remain in use. See the [publishing and installation guide](docs/publishing.md) for individual installation, update commands, and validation scope.
-
-### Try your first sprint
+## Try your first sprint
 
 Use your agent's skill selector, or name the skill in your request:
 

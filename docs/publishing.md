@@ -2,33 +2,24 @@
 
 The source is prepared as six self-contained skill directories. See [maintenance instructions](maintaining.md) for the authoritative files and bundled copies.
 
-## Before publication
-
-1. Create a public GitHub repository under the chosen owner.
-2. Choose and include an explicit license for reuse and redistribution. A license has not yet been selected. [GitHub licensing documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
-3. Replace `OWNER/theoneloop` in installation examples with the real repository identifier.
-4. Publish the files, perform an installation from that public source, and check the installed resources before announcing a release.
-
-No npm publication, service, plugin manifest, or executable TheOneLoop installer is required. The external `skills` CLI handles discovery and installation. [CLI documentation](https://github.com/vercel-labs/skills).
-
 ## Install and update
 
 Install the full set and choose agents interactively:
 
 ```text
-npx skills add OWNER/theoneloop --skill '*'
+npx skills add riktar/theoneloop --skill '*'
 ```
 
 Select the four intended clients explicitly using copy mode:
 
 ```text
-npx skills add OWNER/theoneloop --skill '*' --agent claude-code codex opencode pi --copy
+npx skills add riktar/theoneloop --skill '*' --agent claude-code codex opencode pi --copy
 ```
 
 Install an individual skill:
 
 ```text
-npx skills add OWNER/theoneloop --skill theoneloop-implement
+npx skills add riktar/theoneloop --skill theoneloop-implement
 ```
 
 Use `--global` for user-level installation. Without it, installation is project-local. Use `--copy` when copies are preferred to links. Node/npm are requirements of the external installer, not dependencies shipped with TheOneLoop. [CLI options](https://github.com/vercel-labs/skills#options).
@@ -41,7 +32,7 @@ npx skills update
 
 ## Listing on skills.sh
 
-The skills.sh FAQ describes automatic listing through installation telemetry when users run `npx skills add OWNER/REPO`. No manual leaderboard submission is required. Recorded installations affect visibility and ranking; the documentation does not promise an indexing time. [Official FAQ](https://www.skills.sh/docs/faq).
+The skills.sh FAQ describes automatic listing through installation telemetry when users run `npx skills add riktar/theoneloop`. No manual leaderboard submission is required. Recorded installations affect visibility and ranking; the documentation does not promise an indexing time. [Official FAQ](https://www.skills.sh/docs/faq).
 
 Local packaging tests use disabled telemetry. They do not publish a repository or establish a skills.sh listing. Public-source installation and listing verification remain pending.
 
