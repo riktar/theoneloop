@@ -6,7 +6,7 @@
 
 **One loop. Human direction. Agent execution.**
 
-Turn an issue into a reviewed, releasable software increment. Six text-only skills give your coding agent a repeatable process, with you approving the plan and accepting the result.
+Turn an issue into a reviewed, releasable software increment. Six skills give your coding agent a repeatable process, with you approving the plan and accepting the result.
 
 ## Install
 
