@@ -2,33 +2,9 @@
 
 The source is prepared as six self-contained skill directories. See [maintenance instructions](maintaining.md) for the authoritative files and bundled copies.
 
-## Install and update
+## Installation
 
-Install the full set and choose agents interactively:
-
-```text
-npx skills add riktar/theoneloop --skill '*'
-```
-
-Select the four intended clients explicitly using copy mode:
-
-```text
-npx skills add riktar/theoneloop --skill '*' --agent claude-code codex opencode pi --copy
-```
-
-Install an individual skill:
-
-```text
-npx skills add riktar/theoneloop --skill theoneloop-implement
-```
-
-Use `--global` for user-level installation. Without it, installation is project-local. Use `--copy` when copies are preferred to links. Node/npm are requirements of the external installer, not dependencies shipped with TheOneLoop. [CLI options](https://github.com/vercel-labs/skills#options).
-
-Update installed skills using the CLI:
-
-```text
-npx skills update
-```
+See the [installation guide](installation.md) for full-set, individual, global, local-checkout, and update commands.
 
 ## Listing on skills.sh
 
